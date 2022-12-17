@@ -61,5 +61,5 @@
 #         print('Ai catigat ! Felicitari!')
 
 
-import exercitii
-exercitii.diceRoll
+import ExIfElse_2
+ExIfElse_2.diceRoll

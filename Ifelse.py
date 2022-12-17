@@ -10,15 +10,15 @@ print('oprim radio')
 # daca nr este par printam acest lucru
 # altfel printam impar
 nr = 3
-# s imarte exact la 2
+# se imparte exact la 2
 # ce inseamna ca se imparte la 2? ne da restul 0
 if nr % 2 == 0:
  print ('nr par')
 else:
- print ('imapr')
+ print ('impar')
 # este un numar pozitiv?
 if (nr > 0):
- print ('poztiv')
+ print ('pozitiv')
 else:
  print( ' numar nu este pozitiv ')
 
@@ -41,12 +41,10 @@ else:
 # robotel telefonic
 optiunea =int(input('alege o optiune'))
 if optiunea ==0:
- print('meniu anterio')
+ print('meniu anterior')
 elif optiunea == 1:
   print('ati ales romana')
 elif optiunea == 2:
   print(' ati ales engleza')
 else:
- print(' nu am indeficat optiunea ,mai departe')
-if username == expected_user:
- print(''
+ print(' nu am indentificat optiunea ,mai departe')

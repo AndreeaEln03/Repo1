@@ -18,22 +18,26 @@ parola = input('Introdu parola:')
 if parola == expected_pass:
     print('parola corecta')
 else:
-    print('Parola inccorecta, Incearca din nou')
-    parola =input('Indrodu parola')
-    assert _ parola== expected_pass, 'Parola gresita ,O zi frumoasa!'
+    print('Parola incorecta, Incearca din nou')
+    parola =input('Indrodu parola: ')
+    assert parola == expected_pass, 'Parola gresita ,O zi frumoasa!'
     print('parola corecta')
 
 suma =float(input('Introdu suma dorita:'))
-if suma <= sold
+if suma <= sold:
     print('Ridicati suma')
 
 else:
     print('suma dorita este prea mare ,sold insuficient!')
     reincercare =input('Doriti sa incercati din nou? Da/Nu:')
-    if reincercare == Da
+    if reincercare == 'Da':
         suma =float(input('Introdu suma dorita:'))
         assert suma <= sold, 'Suma introdusa este prea mare '
         print('Ridicati banii')
- elif 
+    elif reincercare == 'Nu':
+      print('La revedere')
+    else:
+        assert  False , 'Eroare'
+
 
 
